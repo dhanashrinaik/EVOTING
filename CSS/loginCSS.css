@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    box-sizing: border-box;
+
+
+        background-color: lightyellow;
+        background-size: cover; /* Adjust as needed */
+        background-position: center; /* Adjust as needed */
+        background-repeat: no-repeat; /* Adjust as needed */
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif; /* Add your preferred font-family */
+    
+  }
+  
+  form {
+    background-color: #fff;
+    padding: 60px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+  
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+
+    
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+
+  #title{
+    background-color: #00b894;
+    padding: 1em;
+    text-align: center;
+    color: white;
+  }
+  input[type=submit] {
+    /* Your styles go here */
+    background-color: black; /* Green background color */
+    color: white; /* White text color */
+    padding: 10px 15px; /* Padding for better appearance */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor style on hover */
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
